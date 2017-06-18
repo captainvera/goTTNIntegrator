@@ -1,0 +1,8 @@
+#MACOSX
+*.DS_STORE
+
+#VIM
+*.swp
+
+#TLS
+*.pem
