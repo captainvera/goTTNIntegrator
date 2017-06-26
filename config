@@ -1,0 +1,12 @@
+{
+    "TTN":{
+        "AppId":"",
+        "ApiKey":""
+        },
+    "OpenSensors":{
+        "ApiKey":"",
+        "ClientId":,
+        "Password":"",
+        "Topic":""
+    }
+}
