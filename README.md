@@ -1,5 +1,5 @@
 # goTTNIntegrator
-Integrator between TTN([The Things Network](https://www.thethingsnetwork.com)) device uplink data feed and an OpenSensors.io endpoint.
+Integrator between TTN([The Things Network](https://www.thethingsnetwork.org)) device uplink data feed and an OpenSensors.io endpoint.
 
 ## Dependencies
 This script depends on the TTN [go-sdk](https://www.thethingsnetwork.org/docs/applications/golang/quick-start.html)
