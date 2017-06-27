@@ -123,9 +123,8 @@ func forwardPayload(payload map[string]interface{}, config osConfiguration) {
 		log.WithError(err).Error("goTTNIntegrator: Error sending POST request to OpenSensors.io")
 	} else {
 		defer resp.Body.Close()
+		log.WithField("Response", resp.Status).Info("goTTNIntegrator: Received response from OpenSensors.io")
 	}
-
-	log.WithField("Response", resp.Status).Info("goTTNIntegrator: Received response from OpenSensors.io")
 }
 
 func handleArgs(args []string) ([]string, string) {
